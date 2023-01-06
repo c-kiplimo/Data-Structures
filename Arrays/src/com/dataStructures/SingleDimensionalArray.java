@@ -14,12 +14,12 @@ public class SingleDimensionalArray {
         }
     }
 
-//    public void insert(int location, int valueToBeInserted) {
-//        if (arr[location] == Integer.MIN_VALUE) {
-//            arr[location] = valueToBeInserted;
-//            System.out.println("Successfully Inserted");
-//        } else {
-//            System.out.println("This cell is already occupied");
-//        }
+    public void insert(int location, int valueToBeInserted) {
+        if (arr[location] == Integer.MIN_VALUE) {
+            arr[location] = valueToBeInserted;
+            System.out.println("Successfully Inserted");
+        } else {
+            System.out.println("This cell is already occupied");
+        }
     }
 }
